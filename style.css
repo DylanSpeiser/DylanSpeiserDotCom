@@ -1,0 +1,92 @@
+:root{
+    /* Variable Definitions */
+    --flickr-pink: #f72585ff;
+    --purple: #7209b7ff;
+    --trypan-blue: #3a0ca3ff;
+    --ultramarine-blue: #4361eeff;
+    --ultramarine-blue-darker: #2f45ab;
+    --vivid-sky-blue: #4cc9f0ff;
+    --vivid-sky-blue-lighter: rgb(158, 226, 247);
+}
+
+body {
+    font-family: 'Alatsi';
+    background-color: var(--ultramarine-blue-darker);
+    color: white;
+}
+
+.spacer-top {
+    height: 1rem;
+    background-color: var(--vivid-sky-blue);
+}
+
+.spacer-bottom {
+    height: 1rem;
+    background-color: var(--ultramarine-blue-darker);
+}
+
+#Name_Head {
+    /* background-color:aqua; */
+    display: inline-flex;
+    align-items: center;
+    z-index: 1;
+    background-color: var(--vivid-sky-blue);
+}
+
+#Name_Head a {
+    /* background-color: red; */
+}
+
+#Name_Head h1 {
+    /* background-color: green; */
+    color: var(--trypan-blue);
+}
+
+#backdrop-div {
+    z-index: 0;
+}
+
+#Main-Hero {
+    color: var(--vivid-sky-blue-lighter);
+    font-family: 'Reem Kufi Ink';
+}
+
+bit {
+    
+}
+
+bit:after {
+    content: attr(letter);
+}
+
+bit:hover:after {
+    content: attr(value);
+}
+
+#Itty-Bitty:after {
+    content: 'one bit at a time.';
+}
+
+#Itty-Bitty:hover:after {
+    content: 'one 010 at a time.';
+}
+
+#headshot {
+    border: solid 10px var(--flickr-pink);
+    border-radius: 10px;
+}
+
+#profile {
+    color: white;
+    font-size: large;
+    font-family: 'IBM Plex Sans';
+}
+
+#profile a {
+    color: black;
+    text-decoration: none;
+}
+
+.card {
+    color: var(--ultramarine-blue-darker);
+}
