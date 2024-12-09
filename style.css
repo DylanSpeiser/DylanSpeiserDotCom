@@ -72,7 +72,7 @@ bit:hover:after {
 }
 
 #headshot {
-    border: solid 10px var(--flickr-pink);
+    border: solid 10px white;
     border-radius: 10px;
 }
 
