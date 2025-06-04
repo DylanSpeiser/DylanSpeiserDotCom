@@ -35,6 +35,8 @@ body {
 
 #Name_Head a {
     /* background-color: red; */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 #Name_Head h1 {
@@ -69,11 +71,6 @@ bit:hover:after {
 
 #Itty-Bitty:hover:after {
     content: 'one 010 at a time.';
-}
-
-#headshot {
-    border: solid 10px white;
-    border-radius: 10px;
 }
 
 #profile {
